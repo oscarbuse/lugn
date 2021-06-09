@@ -4,6 +4,8 @@
 
 3.[runnen van de code](https://github.com/oscarbuse/lugn#runnen-van-de-code)
 
+4.[eerste bijeenkomst] Zie (https://github.com/oscarbuse/lugn/blob/master/bijeenkomsten/website_maken_01.pdf)
+
 # doel
 We gaan een website maken met python/flask/mysql.
 Ter lering ende vermaak
