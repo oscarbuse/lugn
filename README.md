@@ -6,7 +6,7 @@
 
 4.[eerste bijeenkomst](https://github.com/oscarbuse/lugn/blob/master/bijeenkomsten/website_maken_01.pdf)
 
-   Een eerste opzet met hello.py, hello_tpl.py en gebruik templates/
+     Een eerste opzet met hello.py, hello_tpl.py en gebruik templates/
 
 # doel
 We gaan een website maken met python/flask/mysql.
