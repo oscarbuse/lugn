@@ -8,7 +8,7 @@
 
      Een eerste opzet met hello.py, hello_tpl.py en gebruik templates/
 
-5.[tweede bijeenkomst (13 juli 2021)](#)
+5.[tweede bijeenkomst (13 juli 2021)]()
 
      Begin login pagina
 
