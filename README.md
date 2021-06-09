@@ -4,11 +4,11 @@
 
 3.[runnen van de code](https://github.com/oscarbuse/lugn#runnen-van-de-code)
 
-4.[eerste bijeenkomst](https://github.com/oscarbuse/lugn/blob/master/bijeenkomsten/website_maken_01.pdf)
+4.[eerste bijeenkomst (08 juni 2021)](https://github.com/oscarbuse/lugn/blob/master/bijeenkomsten/website_maken_01.pdf)
 
      Een eerste opzet met hello.py, hello_tpl.py en gebruik templates/
 
-5.[tweede bijeenkomst](#)
+5.[tweede bijeenkomst (13 juli 2021)](#)
 
      Begin login pagina
 
