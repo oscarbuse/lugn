@@ -62,7 +62,7 @@ Dan je code runnen met:
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 652-128-401
+ * Debugger PIN: ***-***-***
 ```
 En dan je resultaat bekijken via de link (http://127.0.0.1:5000/)
 Die "Debugger PIN" is een extra security maatregel wat voorkomt dat men debug output ziet als je per ongeluk debug aan hebt staan en op een live systeem werkt.
