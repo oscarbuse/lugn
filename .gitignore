@@ -1,0 +1,4 @@
+*.pyc
+instance/
+__py__cache/
+app/__pycache__/
