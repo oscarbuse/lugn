@@ -1,7 +1,6 @@
-[doel](https://github.com/oscarbuse/lugn#doel)
-
-[virtualenv](https://github.com/oscarbuse/lugn#virtualenv)
-[runnen van de code](https://github.com/oscarbuse/lugn#runnen-van-de-code)
+1.[doel](https://github.com/oscarbuse/lugn#doel)
+2.[virtualenv](https://github.com/oscarbuse/lugn#virtualenv)
+3.[runnen van de code](https://github.com/oscarbuse/lugn#runnen-van-de-code)
 
 # doel
 We gaan een website maken met python/flask/mysql.
