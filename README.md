@@ -24,13 +24,13 @@ $ source venv/bin/activate
 ```
 
 # runnen van de code
-Je moet de FLASK_APP zetten naar het file wat je wilt runnen, bv.:
+Je moet de variabele FLASK_APP setten naar het file wat je wilt runnen, bv.:
 ```
 (venv) $ export FLASK_APP=hello.py
 ```
 (later kiezen we een vaste naam: run.py)
 
-Voor development is wat meer debug output wel handig:
+Voor development is wat meer debug output wel handig, doe daarvoor:
 ```
 (venv) $ export FLASK_ENV=development
 ```
@@ -45,5 +45,11 @@ Dan je code runnen met:
  * Debugger is active!
  * Debugger PIN: 652-128-401
 ```
-En dan je resyultaat bekijken via de link (http://127.0.0.1:5000/)
+En dan je resultaat bekijken via de link (http://127.0.0.1:5000/)
 Die "Debugger PIN" is een extra security maatregel wat voorkomt dat men debug output ziet als je per ongeluk debug aan hebt staan en op een live systeem werkt.
+
+Met `--host=` en `--port=` kun je een ander IP-adres en port toewijzen mocht dat nodig zijn, bv.:
+```
+(venv) $ flask run --host=0.0.0.0 --port=5001
+```
+
