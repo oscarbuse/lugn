@@ -12,18 +12,23 @@ Ter lering ende vermaak
 Het is handig om een python virtual env te gebruiken:
 - je pip installs komen in een aparte directory: je systeem wordt niet "vervuild"
 - je kunt installen als gewone user, je hoeft geen root te zijn
+- samenwerken in een git project
 
-## virtual env directory aanmaken
+## virtual env directory aanmaken en de git-repo neerzetten
 ```
 $ cd
-$ mkdir lugn
-$ pip3 install virtualenv
-$ virtualenv "directory naam" (bv. venv)
-$ source venv/bin/activate
-(venv) $ mkdir website_maken
-(venv) $ git clone https://github.com/oscarbuse/lugn.git
-(venv) $ pip3 install -r requirements.txt
+~$ mkdir lugn
+~$ cd lugn
+~/lugn$ pip3 install virtualenv
+~/lugn$ virtualenv "directory naam" (bv. venv)
+~/lugn$ source venv/bin/activate
+(venv) ~/lugn$ mkdir website_maken
+(venv) ~/lugn$ cd website_maken
+(venv) ~/lugn/website_maken$ git clone https://github.com/oscarbuse/lugn.git
+(venv) ~/lugn/website_maken$ cd lugn
+(venv) ~/lugn/website_maken/lugn$ pip3 install -r requirements.txt
 ```
+De directory structuur kun je uiteraard zelf verzinnen. Zorg wel dat je venv dir niet in de git-repo staat.
 ## virtualenv verlaten
 ```
 (venv) $ deavtivate
@@ -58,4 +63,3 @@ Met `--host=` en `--port=` kun je een ander IP-adres en port toewijzen mocht dat
 ```
 (venv) $ flask run --host=0.0.0.0 --port=5001
 ```
-
