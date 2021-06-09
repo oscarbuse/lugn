@@ -18,6 +18,5 @@ $ source venv/bin/activate
 (venv) $ pip3 install -r requirements.txt
 ```
 ## virtualenv verlaten
-`(venv) $ deavtivate`
-
-
+```(venv) $ deavtivate
+```
