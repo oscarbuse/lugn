@@ -1,3 +1,8 @@
+[doel](https://github.com/oscarbuse/lugn#doel)
+
+[virtualenv](https://github.com/oscarbuse/lugn#virtualenv)
+[runnen van de code](https://github.com/oscarbuse/lugn#runnen-van-de-code)
+
 # doel
 We gaan een website maken met python/flask/mysql.
 Ter lering ende vermaak
