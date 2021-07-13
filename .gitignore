@@ -1,4 +1,5 @@
 *.pyc
 instance/
+migrations/
 __py__cache/
 app/__pycache__/
