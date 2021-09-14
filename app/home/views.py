@@ -21,3 +21,8 @@ def dashboard():
     Render the dashboard template on the /dashboard route
     """
     return render_template('home/dashboard.html', title="Dashboard")
+
+@home.route('/overons')
+def overons():
+    return render_template("home/overons.html")
+

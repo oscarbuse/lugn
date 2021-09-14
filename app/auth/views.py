@@ -6,7 +6,7 @@ from flask_login import login_required, login_user, logout_user
 from . import auth
 from . forms import LoginForm, RegistrationForm
 from .. import db
-from ..models import User
+from .. models import User
 
 
 @auth.route('/register', methods=['GET', 'POST'])
@@ -45,8 +45,7 @@ def login():
         # check whether user exists in the database and whether
         # the password entered matches the password in the database
         user = User.query.filter_by(email=form.email.data).first()
-        if user is not None and user.verify_password(
-                form.password.data):
+        if user is not None and user.verify_password(form.password.data):
             # log user in
             login_user(user)
 
